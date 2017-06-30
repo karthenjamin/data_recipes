@@ -124,15 +124,15 @@ Remember, you have two options to run a docker contains with Docker Toolbox for 
 
 ### Docker Quickstart Terminal
 
-Right click on [this link](https://raw.githubusercontent.com/karthenjamin/data_recipes/master/startup_toolbox.sh), click "Save Link As..." and save the file to your desktop as "startup_toolbox.sh". Now, we have this `.sh` file saved to the Desktop.
+Right click on [this link](https://raw.githubusercontent.com/karthenjamin/data_recipes/master/windows_startup.sh), click "Save Link As..." and save the file to your desktop as "windows_startup.sh". Now, we have this `.sh` file saved to the Desktop.
 
-Open the Docker Quickstart Terminal, and use `cd` ("change directory") to navigate to your Desktop. You can use `ls` ("list") to check what is in your current directory. If you see Desktop in the `ls` output, you can type `cd Desktop` to navigate there. Once at your Desktop, you can again type `ls` and hit enter. You should see `startup_toolbox.sh` in the list. Run the following command to allow this file to be executable:
+Open the Docker Quickstart Terminal, and use `cd` ("change directory") to navigate to your Desktop. You can use `ls` ("list") to check what is in your current directory. If you see Desktop in the `ls` output, you can type `cd Desktop` to navigate there. Once at your Desktop, you can again type `ls` and hit enter. You should see `windows_startup.sh` in the list. Run the following command to allow this file to be executable:
 
-> `chmod +x startup_toolbox.sh`
+> `chmod +x windows_startup.sh`
 
 Now, we can run this file as an executable. To do this, type the following in your quickstart terminal:
 
-> `./startup_toolbox.sh`
+> `./windows_startup.sh`
 
 Assuming Docker Toolbox has been installed correctly, this command will download the image of the docker container, startup a container and open Jupyter Notebook in your default web browser.
 
@@ -149,4 +149,6 @@ Assuming Docker Toolbox has been installed correctly, this command will download
 # How to Use Jupyter Notebook and the Docker terminal.
 
 This section assumes that you have followed the above steps and successfully gotten the Jupyter Notebook to open. For more info on this, see above. Using Jupyter Notebook is the same across platforms.
+
+For more information on how to use the Jupyter Notebook environment, see [this youtube tutorial](https://youtu.be/JImOfVHQtYc).
 
