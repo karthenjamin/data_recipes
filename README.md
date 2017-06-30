@@ -76,6 +76,6 @@ Now, we can run this file as an executable. To do this, type the following in yo
 
 > `./startup_toolbox.sh`
 
-Assuming Docker has been installed correctly, this command will download the image of the docker container, startup a container and open Jupyter Notebook in your default web browser.
-Download [this file](https://raw.githubusercontent.com/karthenjamin/data_recipes/master/startup_mac.sh), which contains a series of commands to run docker
+Assuming Docker Toolbox has been installed correctly, this command will download the image of the docker container, startup a container and open Jupyter Notebook in your default web browser.
+
 
