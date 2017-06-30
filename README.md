@@ -4,6 +4,12 @@ This repository contains everything a user needs to run any Jupyter Notebook on 
 
 # How to Install Docker
 
+## Windows
+
+If you are using a Windows machine, we recommend that you install the Docker Toolbox Application. To install, follow these steps:
+
+1. Click this link to download Docker Toolbox for Windows: [Docker Toolbox Windows Download](asdfasdf)
+
 ## Mac
 
 If you have a mac, there are two possible versions of docker you may need. The need for different versions of docker depend on whether your Mac has virtualization capibilities. In order to check whether your Mac has virtualization, run the following in your terminal:
@@ -32,7 +38,7 @@ If you have more questions about this process, refer to the following video tuto
 
 If this is the output you saw, you do not have virtualization capabilities, so you will need to download Docker Toolbox. To install, follow these steps:
 
-1. Click this link to download Docker Toolbox: [Download Docker Toolbox](https://download.docker.com/mac/stable/DockerToolbox.pkg)
+1. Click this link to download Docker Toolbox for Mac: [Download Docker Toolbox Mac](https://download.docker.com/mac/stable/DockerToolbox.pkg)
 
 2. Once the download has finished, open the file and install the software. You will need adminstrator's privelege complete this step.
 
