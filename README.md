@@ -2,7 +2,7 @@
 
 This repository contains everything a user needs to run any Jupyter Notebook on your computer without having to install anything besides docker. This repository contains several GES DISC data recipes to demonstrate how to work with Earth Science Data.
 
-# How do I Install Docker?
+# How to Install Docker
 
 ## Mac
 
@@ -31,4 +31,18 @@ If you have more questions about this process, refer to the following video tuto
 ### `kern.hv_support: 0`
 
 If this is the output you saw, you do not have virtualization capabilities, so you will need to download Docker Toolbox.
+
+# How to Run Docker
+
+Remember: if you have a Mac, to check for virtualization capability, run the following command in your terminal:
+
+> `sysctl kern.hv_support`
+
+If you see an output of 1, your Mac supports virtualization. If you see an output of 0, your Mac does not support virtualization.
+
+## Mac with Virtualization
+
+
+
+
 
