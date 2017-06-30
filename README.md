@@ -77,7 +77,7 @@ If you are using a Windows machine, we recommend that you install the Docker Too
 
 6. If you would like to use the Docker Quickstart Terminal instead (recommended), you must *first* open Kitematic (only once) so that it starts the Docker VM.
 
-If you have more questions about this process, refer to the following video tutorial: https://youtu.be/MuhyK1QFwfM
+If you have more questions about this process, refer to the following video tutorial: https://www.youtube.com/watch?v=I_r44eGhN90&t=322s
 
 
 
