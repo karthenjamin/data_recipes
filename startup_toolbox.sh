@@ -1,6 +1,6 @@
 docker stop $(docker ps -q) > /dev/null 2>&1
 docker rm $(docker ps -aq) > /dev/null 2>&1
-docker run -dit --name data_recipes --restart always -p 1234:8888 bbanavige/data_recipes > /dev/null
+docker run -dit --name data_recipes --restart always -p 1234:8888 karthenjamin/data_recipes > /dev/null
 echo ""
 echo "-----------------------------------------------------------------------------------"
 echo "opening jupyter notebook"
