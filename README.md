@@ -12,7 +12,7 @@ If you have a mac, there are two possible versions of docker you may need. The n
 
 You should see a line of output that says `kern.hv_support:` followed by a 1 or a 0. Follow the following instructions based on your output from this command.
 
-### `kern.hv_support: 1`
+#### `kern.hv_support: 1`
 
 If you see this output, you have virtualization capibility, and you can run the current version of docker from the command line. To install, follow these steps:
 
@@ -28,7 +28,7 @@ If you see this output, you have virtualization capibility, and you can run the 
 
 If you have more questions about this process, refer to the following video tutorial: [here](jfjkajkldfajklfd)
 
-### `kern.hv_support: 0`
+#### `kern.hv_support: 0`
 
 If this is the output you saw, you do not have virtualization capabilities, so you will need to download Docker Toolbox.
 
