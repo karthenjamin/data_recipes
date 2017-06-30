@@ -42,7 +42,7 @@ If you see an output of 1, your Mac supports virtualization. If you see an outpu
 
 ## Mac with Virtualization
 
-
+Download [this file](startup_mac.sh), which contains a series of commands to run docker on your computer.
 
 
 
