@@ -56,4 +56,9 @@ Assuming Docker has been installed correctly, this command will download the ima
 Download [this file](https://raw.githubusercontent.com/karthenjamin/data_recipes/master/startup_mac.sh), which contains a series of commands to run docker 
 
 
+# How to Use Jupyter Notebook and the Docker terminal.
+
+This section assumes that you have followed the above steps and successfully gotten the Jupyter Notebook to open. For more info on this, see above. Using Jupyter Notebook is the same across platforms.
+
+
 
