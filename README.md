@@ -150,3 +150,5 @@ Assuming Docker Toolbox has been installed correctly, this command will download
 
 This section assumes that you have followed the above steps and successfully gotten the Jupyter Notebook to open. For more info on this, see above. Using Jupyter Notebook is the same across platforms.
 
+For more information on how to use the Jupyter Notebook environment, see [this youtube tutorial](https://youtu.be/JImOfVHQtYc).
+
