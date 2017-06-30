@@ -133,18 +133,14 @@ Assuming Docker Toolbox has been installed correctly, this command will download
 
 ### Kitematic Application
 
-<<<<<<< HEAD
-# How to Use Jupyter Notebook and the Docker terminal.
-
-This section assumes that you have followed the above steps and successfully gotten the Jupyter Notebook to open. For more info on this, see above. Using Jupyter Notebook is the same across platforms.
-
-
-=======
 1. Launch the Kitematic app that comes with the installation of Docker Toolbox (you may have to login to your DockerHub account).
 2. From here, search for "karthenjamin/data_recipes" in the "Search for Docker images in Docker Hub" search bar.
 3. Once you have located this repository, simply click on "Create".
 4. This should start the container; click the expand button on the Web Preview
 5. This should open the Jupyter Notebook and prompt you for a password. Enter: benkarthik
 6. Back in the Kitematic application, click on the "EXEC" button above the container logs to start the terminal for this container. 
->>>>>>> f1c6bb9f5387f3dbe885bcc0dc7a55c44830031d
+
+# How to Use Jupyter Notebook and the Docker terminal.
+
+This section assumes that you have followed the above steps and successfully gotten the Jupyter Notebook to open. For more info on this, see above. Using Jupyter Notebook is the same across platforms.
 
