@@ -16,7 +16,7 @@ You should see a line of output that says `kern.hv_support:` followed by a 1 or 
 
 If you see this output, you have virtualization capibility, and you can run the current version of docker from the command line. To install, follow these steps:
 
-1. Click this link: [store.docker.com](https://store.docker.com/editions/community/docker-ce-desktop-mac)
+1. Click this link: [store.docker.com](https://download.docker.com/mac/stable/Docker.dmg)
 
 2. Once the download has finished, open the file.
 
