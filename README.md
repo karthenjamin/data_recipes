@@ -2,7 +2,7 @@
 
 This repository contains everything a user needs to run any Jupyter Notebook on your computer without having to install anything besides docker. This repository contains several GES DISC data recipes to demonstrate how to work with Earth Science Data.
 
-# Which Version of Docker Do I Need?
+# How do I Install Docker?
 
 ## Mac
 
