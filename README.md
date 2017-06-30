@@ -40,7 +40,7 @@ If this is the output you saw, you do not have virtualization capabilities, so y
 
 4. Navigiate to the Applications folder and open docker.  Now, you can open the Docker Quickstart Terminal and run docker commands from here. 
 
-For a video explanation of this process, refer to the following video tutorial: [here](lolololololololol)
+If you have more questions about this this process, refer to the following video tutorial: https://youtu.be/rKbNsT2kH7g
 
 # How to Run Docker
 
