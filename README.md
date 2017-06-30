@@ -124,6 +124,8 @@ Remember, you have two options to run a docker contains with Docker Toolbox for 
 
 ### Docker Quickstart Terminal
 
+*Remember, if this is your first time opening Docker Quickstart Terminal, you must first run the Kitematic application to start the VM (then, you may close out of Kitematic).  Afterwards, you will no longer need to run the Kitematic app.*
+
 Right click on [this link](https://raw.githubusercontent.com/karthenjamin/data_recipes/master/windows_startup.sh), click "Save Link As..." and save the file to your desktop as "windows_startup.sh". Now, we have this `.sh` file saved to the Desktop.
 
 Open the Docker Quickstart Terminal, and use `cd` ("change directory") to navigate to your Desktop. You can use `ls` ("list") to check what is in your current directory. If you see Desktop in the `ls` output, you can type `cd Desktop` to navigate there. Once at your Desktop, you can again type `ls` and hit enter. You should see `windows_startup.sh` in the list. Run the following command to allow this file to be executable:
