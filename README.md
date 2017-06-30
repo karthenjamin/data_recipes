@@ -26,11 +26,11 @@ If you see this output, you have virtualization capibility, and you can run the 
 
 5. You should see a whale on your status bar with some boxes moving around. Once these boxes stop moving, docker is successfully installed and running. You can run docker from here.
 
-If you have more questions about this process, refer to the following video tutorial: [here](jfjkajkldfajklfd)
+If you have more questions about this process, refer to the following video tutorial: https://youtu.be/MuhyK1QFwfM
 
 #### `kern.hv_support: 0`
 
-If this is the output you saw, you do not have virtualization capabilities, so you will need to download Docker Toolbox. To install, foloow these steps:
+If this is the output you saw, you do not have virtualization capabilities, so you will need to download Docker Toolbox. To install, follow these steps:
 
 1. Click this link to download Docker Toolbox: [Download Docker Toolbox](https://download.docker.com/mac/stable/DockerToolbox.pkg)
 
