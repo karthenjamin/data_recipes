@@ -42,7 +42,17 @@ If you see an output of 1, your Mac supports virtualization. If you see an outpu
 
 ## Mac with Virtualization
 
-Download [this file](startup_mac.sh), which contains a series of commands to run docker on your computer.
+Right click on [this link](startup_mac.sh), click "Save Link As..." and save the file to your desktop as "startup_mac.sh". Now, we have this `.sh` file saved to the Desktop.
+
+Open your terminal, and use `cd` ("change directory") to navigate to your Desktop. You can use `ls` ("list") to check what is in your current directory. If you see Desktop in the `ls` output, you can type `cd Desktop` to navigate there. Once at your Desktop, you can again type `ls` and hit enter. You should see `startup_mac.sh` in the list. Run the following command to allow this file to be executable:
+
+> `chmod +x startup_mac.sh`
+
+Now, we can run this file as an executable. To do this, type the following in your terminal:
+
+> `./startup.sh`
+
+Assuming Docker has been installed correctly, this command will download the image of the docker container, startup a container and open Jupyter Notebook in your default web browser.
 
 
 
