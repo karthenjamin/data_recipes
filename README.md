@@ -5,8 +5,14 @@
   - [Mac](#mac)
       - [`kern.hv_support: 1`](#kernhv_support-1)
       - [`kern.hv_support: 0`](#kernhv_support-0)
+  - [Windows](#windows)
 - [How to Run Docker](#how-to-run-docker)
   - [Mac with Virtualization](#mac-with-virtualization)
+  - [Mac without Virtualization](#mac-without-virtualization)
+  - [Windows without Virtualization](#windows-without-virtualization)
+    - [Docker Quickstart Terminal](#docker-quickstart-terminal)
+    - [Kitematic Application](#kitematic-application)
+- [How to Use Jupyter Notebook and the Docker terminal.](#how-to-use-jupyter-notebook-and-the-docker-terminal)
 
 # Data Recipes
 
