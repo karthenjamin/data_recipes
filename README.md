@@ -1,3 +1,13 @@
+# Table of Contents
+
+- [Data Recipes](#data-recipes)
+- [How to Install Docker](#how-to-install-docker)
+  - [Mac](#mac)
+      - [`kern.hv_support: 1`](#kernhv_support-1)
+      - [`kern.hv_support: 0`](#kernhv_support-0)
+- [How to Run Docker](#how-to-run-docker)
+  - [Mac with Virtualization](#mac-with-virtualization)
+
 # Data Recipes
 
 This repository contains everything a user needs to run any Jupyter Notebook on your computer without having to install anything besides docker. This repository contains several GES DISC data recipes to demonstrate how to work with Earth Science Data.
