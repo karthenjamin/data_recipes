@@ -30,7 +30,17 @@ If you have more questions about this process, refer to the following video tuto
 
 #### `kern.hv_support: 0`
 
-If this is the output you saw, you do not have virtualization capabilities, so you will need to download Docker Toolbox.
+If this is the output you saw, you do not have virtualization capabilities, so you will need to download Docker Toolbox. To install, foloow these steps:
+
+1. Click this link to download Docker Toolbox: [Download Docker Toolbox](https://download.docker.com/mac/stable/DockerToolbox.pkg)
+
+2. Once the download has finished, open the file and install the software. You will need adminstrator's privelege complete this step.
+
+3. Once the installation is complete, you will have two new applications, Docker Quickstart Terminal and Kitematic. 
+
+4. Navigiate to the Applications folder and open docker.  Now, you can open the Docker Quickstart Terminal and run docker commands from here. 
+
+For a video explanation of this process, refer to the following video tutorial: [here](lolololololololol)
 
 # How to Run Docker
 
