@@ -1,5 +1,11 @@
 docker stop $(docker ps -q) > /dev/null 2>&1
 docker rm $(docker ps -aq) > /dev/null 2>&1
+echo ""
+echo "----------------------------------------------------------------------------"
+echo "pulling current image"
+echo "----------------------------------------------------------------------------"
+echo ""
+docker pull karthenjamin/data_recipes 2> /dev/null
 docker run -dit --name data_recipes --restart always -p 1234:8888 karthenjamin/data_recipes > /dev/null
 echo ""
 echo "-----------------------------------------------------------------------------------"
