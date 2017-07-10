@@ -8,6 +8,8 @@ RUN /home/condauser/tutorials/installation.sh
 
 RUN rm /home/condauser/tutorials/Dockerfile
 
+RUN rm /home/condauser/tutorials/installation.sh
+
 #USER condauser
 
 ENV HOME=/home/condauser
