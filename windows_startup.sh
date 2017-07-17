@@ -51,7 +51,7 @@ echo "opening jupyter notebook"
 echo "----------------------------------------------------------------------------"
 echo ""
 sleep 4
-export addr="http://$(docker-machine ip)$(docker port data_recipes | tail -c 6)/?token=benkarthik"
+export addr="http://$(docker-machine ip)$(docker port data_recipes_saved | tail -c 6)/?token=benkarthik"
 start $addr > /dev/null
 sleep 4
 echo "----------------------------------------------------------------------------"
