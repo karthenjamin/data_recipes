@@ -16,7 +16,7 @@
 
 # Data Recipes
 
-This repository contains everything a user needs to run any Jupyter Notebook on your computer without having to install anything besides docker. This repository contains several GES DISC data recipes to demonstrate how to work with Earth Science Data.
+ This repository contains several GES DISC data recipes to demonstrate how to work with Earth Science Data. This repository contains everything a user needs to run a GES DISC Jupyter Notebook on your computer without having to install anything besides docker.
 
 # How to Install Docker
 
@@ -25,7 +25,7 @@ This repository contains everything a user needs to run any Jupyter Notebook on 
 
 ## Mac
 
-If you have a mac, there are two possible versions of docker you may need. The need for different versions of docker depend on whether your Mac has virtualization capibilities. In order to check whether your Mac has virtualization, run the following in your terminal:
+If you have a mac, there are two possible versions of docker you may need. The need for different versions of docker depend on whether your Mac has virtualization capibilities. In order to check whether your Mac has virtualization enabled, run the following in your terminal:
 
 > `sysctl kern.hv_support`
 
@@ -57,7 +57,7 @@ If this is the output you saw, you do not have virtualization capabilities, so y
 
 3. Once the installation is complete, you will have two new applications, Docker Quickstart Terminal and Kitematic. 
 
-4. Navigiate to the Applications folder and open docker.  Now, you can open the Docker Quickstart Terminal and run docker commands from here. 
+4. Navigiate to the Applications folder and open the docker folder.  Now, you can open the Docker Quickstart Terminal and run docker commands from here. 
 
 If you have more questions about this this process, refer to the following video tutorial: https://youtu.be/rKbNsT2kH7g
 
@@ -120,7 +120,7 @@ Assuming Docker Toolbox has been installed correctly, this command will download
 
 ## Windows without Virtualization
 
-Remember, you have two options to run a docker contains with Docker Toolbox for Windows. You can either use the Kitematic Application or you can use the Docker Quickstart Terminal (recommended).  
+Remember, you have two options to run a docker container with Docker Toolbox for Windows. You can either use the Kitematic Application or you can use the Docker Quickstart Terminal (recommended).  
 
 ### Docker Quickstart Terminal
 
