@@ -1,4 +1,11 @@
-soverwrite_bool=false
+docker stop $(docker ps -q) > /dev/null 2>&1
+docker rm $(docker ps -aq) > /dev/null 2>&1
+echo ""
+echo "----------------------------------------------------------------------------"
+echo "pulling current image"
+echo "----------------------------------------------------------------------------"
+echo ""
+overwrite_bool=false
 if docker images | awk -F ' ' '{print $1}' | grep "data_recipes_saved" > /dev/null; then
 	echo "there are currently previously saved data recipe images on your machine."
 	echo ""
