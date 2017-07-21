@@ -14,7 +14,7 @@ if docker images | awk -F ' ' '{print $1}' | grep "data_recipes_saved" > /dev/nu
 		if echo "$answer" | grep -iq "^y"; then
 			overwrite_bool=true
 		    echo "here is a list of all previously saved date recipe images and the times they were last saved"
-		    echo "#  date/time saved"
+		    echo "#  version-date/time saved"
 			docker images | grep "data_recipes_saved"| sort | awk -F ' ' '{print NR "  " $2}'
 			echo ""
 			while true; do
@@ -77,7 +77,7 @@ if [ "$overwrite_bool" == "false" ]; then
 	while true; do
 		tag="v$(( $(docker images | awk -F ' ' '{print $1}' | grep "data_recipes_saved" | wc -l) + 1))-$(date +"%m.%d.%y-%I.%M%p")"
 		echo ""
-	    read -p "do you want to save your current image? (y/n) " yn
+	    read -p "do you want to create a new save with your current image? (y/n) " yn
 	    echo ""
 	    case $yn in
 	        [Yy]* ) echo "saving....."; echo ""; docker commit $con data_recipes_saved:$(echo "$tag") > /dev/null; echo "saved as $con:$(echo "$tag")"; break;;
